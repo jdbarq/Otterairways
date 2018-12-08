@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.csumb.james.otterairways.AddFlights">
+
+
+    <EditText
+        android:id="@+id/flightId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:ems="10"
+        android:hint="Flight No." />
+
+    <EditText
+        android:id="@+id/departureId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flightId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/flightId"
+        android:layout_below="@+id/flightId"
+        android:ems="10"
+        android:hint="Departure" />
+
+    <EditText
+        android:id="@+id/arrivalId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/departureId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/departureId"
+        android:layout_below="@+id/departureId"
+        android:ems="10"
+        android:hint="Arrival" />
+
+    <EditText
+        android:id="@+id/priceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/capacityId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/capacityId"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Price" />
+
+    <EditText
+        android:id="@+id/departureTimeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/arrivalId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/arrivalId"
+        android:layout_below="@+id/arrivalId"
+        android:ems="10"
+        android:hint="Departure Time" />
+
+    <EditText
+        android:id="@+id/capacityId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/departureTimeId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/departureTimeId"
+        android:layout_below="@+id/departureTimeId"
+        android:ems="10"
+        android:hint="Capacity" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/priceId"
+        android:layout_alignStart="@+id/priceId"
+        android:layout_below="@+id/priceId"
+        android:layout_marginLeft="131dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="23dp"
+        android:text="Add " />
+</RelativeLayout>

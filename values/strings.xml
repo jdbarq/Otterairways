@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Otter Airways</string>
+    <string name="creatButton">Create Account</string>
+    <string name="manageButton">Manage System</string>
+    <string name="cancelButton">Cancel Reservation</string>
+    <string name="reserveButton">Reserve Seat</string>
+    <string name="Username">Please enter username</string>
+</resources>

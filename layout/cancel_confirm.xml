@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dip">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure?"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="YES"/>
+
+    <Button
+        android:id="@+id/no_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NO"/>
+</LinearLayout>
